@@ -1,0 +1,18 @@
+'mpirun' not found
+
+Usage: foamJob [OPTION] <application> ...
+options:
+  -case <dir>       specify alternative case directory, default is the cwd
+  -parallel         run in parallel (with mpirun)
+  -screen           also send output to screen
+  -append           append to existing log file instead of overwriting it
+  -log=FILE         specify the log file
+  -log-app          Use log.{appName} for the log file
+  -no-check         run without fewer checks (eg, processor dirs etc)
+  -no-log           run without log file
+  -wait             wait for execution to complete (when not using -screen)
+  -help             print the usage
+
+Run an OpenFOAM job in background, redirecting output to a 'log' file
+in the case directory
+
