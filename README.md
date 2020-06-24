@@ -20,3 +20,8 @@ simpleFOAM with RANS K-epsilon turbelence model
 ## Boundary conditions
 
 atmBoundaryLayerInletVelocity at inlet
+
+## References
+Code based on A tutorial to urban wind flow using OpenFOAM by H˚akan Nilsson
+[link to report](http://www.tfd.chalmers.se/~hani/kurser/OS_CFD_2017/DavidSegersson/report_David_Segersson.pdf)
+
